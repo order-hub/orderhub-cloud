@@ -1,0 +1,25 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Creash log
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Working directory
+.terraform/
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# Plan files
+*.tfplan
+
+# etc
+.vscode/
